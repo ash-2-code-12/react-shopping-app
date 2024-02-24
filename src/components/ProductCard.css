@@ -1,0 +1,37 @@
+.pdt-img{
+    height: 110px;
+    width: 110px;
+    object-fit: contain; /* Optional: Maintain aspect ratio */
+    mix-blend-mode: multiply;
+  }
+  
+  .desc{
+    color:grey;
+    font-size: 13px;
+    text-align: left;
+    height: 4.5em;
+    overflow: hidden;
+  
+  }
+  .product-card{
+    max-width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #fbf5f0;
+    
+  }
+  
+  .pdt-name{
+    font-size: 16.5px;
+    text-align: center;
+    height: 1.8em;
+    overflow: hidden;
+    width: 100%;
+  }
+  .btn-style{
+    background-color: coral; /* PeachPuff */
+    color: white;
+    
+  }
+  
+  

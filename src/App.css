@@ -1,0 +1,76 @@
+.side-bar{
+    width: 300px;
+    height: 82vh;
+    right: 0;
+    position: fixed;
+    background-color: rgba(225, 225, 225, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+
+.nav-rounder{
+    border-radius: 50px;
+}
+
+
+.main-bg{
+    background-image: linear-gradient(to bottom, #FFB6C1, #FFFFE0);
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+}
+.btn-style{
+  background-color: coral; /* PeachPuff */
+  color: white;
+  
+}
+.nav-name{
+    font-size: 28px; 
+    background: -webkit-linear-gradient(left,#d411e2, #ffea00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cart-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: blueviolet;
+  }
+  .icon{
+    margin-left: 80%;
+  }
+  .search-bar{
+    width: 310px;
+    padding: 8px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 10px; /* Rounded edges */
+    background-color: lavender;
+  }
+  .banner-img{
+    border-radius: 14px;
+    background-image: url("D:\React\react-shopping-app\src\Screenshot 2024-02-24 092614.png");
+    background-attachment: fixed;
+    background-position-y: top;
+    
+    width: 92%;
+    height: 330px;
+    margin-left: 38px;
+  }
+
+  .sidebar-category{
+    font-size: 24px;
+    font-weight: 400;
+    color: crimson;
+  }
+  .categories{
+    list-style-type: none;
+    font-size: 18px;
+  }
+  .categories div:hover {
+    background-color: lavender;
+    color: white;
+    padding-left: 12px;
+    border-radius: 6px;
+  }
