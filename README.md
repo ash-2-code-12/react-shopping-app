@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## React JS Shopping Application
+- **Pleasant Design:** Delight in a visually appealing and **responsive interface** that enhances the shopping experience, offering a seamless blend of aesthetics and functionality across various devices.
+- **Fake API Data:** Access realistic product details through integrated fake API data, ensuring a dynamic shopping environment without the need for real backend integration.
+- **Search Functionality:** Find products effortlessly by searching through descriptions and names, facilitating quick discovery of desired items.
+- **Category Filtering:** Streamline product discovery with category filtering, enabling users to narrow down their search results by selecting from available product categories.
+- **Sorting Options:** Tailor product listings to preferences with sorting options based on rating or price, available in both ascending and descending orders.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Application on initial load
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/b2c659fb-b1b6-4cff-9924-a2d09d846927)
 
-## Available Scripts
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/23bccc56-95ed-4299-98d2-291eed1372b9)
 
-In the project directory, you can run:
+### on small screen:
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/b2c96f96-c8fa-4fd5-a16c-fa3374f614a7)
+### on medium screen :
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/7c0e6131-9e3c-447a-9ea4-6b2d759be416)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Search Functionality :
+-as we enter search text the products are filtered and shown.
+-before search :
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/39c550db-7759-427d-9522-3ba4d03935bd)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-entering search text: "J"
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/aaf64049-820d-4546-9295-19b9be970e50)
 
-### `npm test`
+-entering search text: "JE"
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/27014d82-c8a0-4c61-baa0-5934cc13c90c)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Filter By Category:
+-click on any category
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/02e66f30-c33c-477c-90eb-1cb3584036dd)
+filtered products view
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/a937891a-ebca-41ea-9b3e-14ac6d079157)
 
-### `npm run build`
+## Sort by Price:
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/c1132821-91b5-4d91-b917-9c758ed693e0)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/cfcc27c5-6962-4026-b487-a5f67ecc0098)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Sort by Rating:
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/38b0c136-883e-4e01-a9d2-fb91b4342910)
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/c735e2db-874b-4dc2-98ef-8d5cdcadbcb0)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Reset to show all products
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/fbba6dc2-f1e3-4a87-83ba-2c6f53b794eb)
+![image](https://github.com/ash-2-code-12/react-shopping-app/assets/128391295/98fec8b4-a715-491a-8285-8e0339f64dc7)
 
-### `npm run eject`
+## work in progress to build cart 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
