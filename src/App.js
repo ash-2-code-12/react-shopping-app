@@ -156,7 +156,7 @@ function App() {
               <div className='mb-2' onClick={()=>onSortSelect("rasc")}>Rating: Low to High</div>
               <div className='mb-2' onClick={()=>onSortSelect("rdesc")}>Rating: High to Low</div>
             </div>
-            { dupData===pdtData ||
+            { dupData===pdtData  || 
               <div className='categories mt-5 text-center' onClick={()=>setDupData(pdtData)}><div>Reset</div></div>
 }
           </div>
