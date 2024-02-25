@@ -25,7 +25,7 @@ const ProductCard =(keyObj)=>{
 
     return(
         
-        <div className='col-6 col-md-4 col-lg-3  product-card text-center m-5 shadow-lg px-3 pt-3'>
+        <div className='col-8 col-md-4 col-lg-3  product-card text-center m-5 shadow-lg px-3 pt-3'>
           <img className="pdt-img mb-3" src={keyObj.props.image} alt="noImg"/>
         
           

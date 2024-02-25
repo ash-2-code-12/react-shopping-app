@@ -88,10 +88,10 @@ function App() {
   }
 
   return (
-    <div className=' p-0 main-bg'>
+    <div className='  main-bg p-5'>
 
       {/* navbar */}
-      <div className='p-3 col-12 '>
+      <div className='p-3 col-12 fixed-top'>
         <nav className="navbar nav-rounder navbar-expand-lg navbar-light bg-light p-3">
           <a className="navbar-brand ml-4 nav-name" href="#"><RiShoppingBag3Fill size="34" className='mr-3 pb-1' />Swift Buy</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,7 +116,7 @@ function App() {
 
 
       {/* homepage */}
-      <div className='d-flex justify-content-between '>
+      <div className='d-flex justify-content-between mt-5'>
 
         <div className='d-flex col-12  col-lg-10 justify-content-start'>
 
@@ -153,10 +153,12 @@ function App() {
             <div className='categories pl-3'>
               <div className='mb-2' onClick={()=>onSortSelect("pasc")}>Price: Low to High</div>
               <div className='mb-2' onClick={()=>onSortSelect("pdesc")}>Price: High to Low</div>
-              <div className='mb-2' onClick={()=>onSortSelect("rasc")}>Rating: High to Low</div>
+              <div className='mb-2' onClick={()=>onSortSelect("rasc")}>Rating: Low to High</div>
               <div className='mb-2' onClick={()=>onSortSelect("rdesc")}>Rating: High to Low</div>
             </div>
-
+            { dupData===pdtData ||
+              <div className='categories mt-5 text-center' onClick={()=>setDupData(pdtData)}><div>Reset</div></div>
+}
           </div>
         </div>
           {/* end of homePage */}
